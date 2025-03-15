@@ -1,0 +1,40 @@
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/dist/
+honeygo
+/bin/honeygo
+coverage.out
+coverage.html
+
+
+# Log files
+*.log
+logs/
+
+# Config files with sensitive info
+config.yaml
+*.pem
+*.key
+*.crt
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo

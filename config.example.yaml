@@ -1,0 +1,21 @@
+# HoneyGO Configuration Example
+# Rename to config.yaml to use
+
+# Server settings
+listen_address: "0.0.0.0:2222"
+host_key_path: "keys/honeygo_key"
+host_key_type: "rsa"
+banner: "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.4"
+
+# Authentication settings
+allow_password_auth: true
+allow_key_auth: false
+
+# Forwarding settings
+# If enabled, successful login attempts will be forwarded to a real honeypot
+forward_enabled: false
+forward_host: "127.0.0.1"
+forward_port: 2223
+
+# Logging settings
+log_path: "logs/honeygo.log"
