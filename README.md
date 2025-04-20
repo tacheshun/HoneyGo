@@ -17,4 +17,5 @@ HoneyGO is a lightweight, low-interaction SSH honeypot written in Go. It simulat
 * Do not run the honeypot on production systems
 * Regularly review and analyze the collected data
 
-## WORK IN PROGRESS 
+## License 
+MIT
